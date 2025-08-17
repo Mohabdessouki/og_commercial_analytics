@@ -1,0 +1,60 @@
+# Compiled source code
+*.class
+*.o
+*.so
+*.dll
+*.exe
+*.out
+*.pyc
+*.pyo
+*.pyd
+
+# Package distribution
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.tgz
+*.7z
+
+# Logs and databases
+*.log
+*.sql
+*.sqlite
+*.db
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# IDE and editor folders/files
+*.swp
+*.swo
+*.bak
+*.tmp
+
+# Node.js
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Python
+__pycache__/
+.env
+.venv
+
+# Visual Studio Code
+.vscode/
+
+# macOS
+.AppleDouble
+.LSOverride
+
+# Others
+*.iml
+.idea/
+config/
+.env.*
+.env.local
+config.*

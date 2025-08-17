@@ -1,0 +1,16 @@
+fastapi==0.111.0
+uvicorn[standard]==0.30.0
+pydantic==2.7.1
+pydantic-settings==2.3.4
+numpy
+pandas
+matplotlib
+statsmodels
+scipy
+scikit-learn
+prophet; sys_platform != 'win32'
+yfinance
+beautifulsoup4
+feedparser
+requests
+openai>=1.30.0
