@@ -94,7 +94,7 @@ The goal is to support **refinery and trading teams** in:
 
 ---
 
-## 📈 Sample Results (UI Output)
+## Sample Results (UI Output)
 
 From the dashboard (example screenshot):
 
@@ -119,10 +119,10 @@ From the dashboard (example screenshot):
 Models forecast **stable-to-declining prices**, while news signals **oversupply risk** but **localized bullish spreads**. Together, the system recommends **cautious pricing optimization** to preserve margins.
 
 ---
+## Running the project from jupyter notebook
+Run the code from the **commercial.ipynb** file
 
-## Running the Project
-
-## Running with Makefile (Docker)
+## Running the project from the UI (Makefile/Docker)
 
 For containerized setup, the following **Makefile** commands are available:
 
@@ -144,21 +144,7 @@ make down
 make logs
 ```
 
-This will bring up both the **frontend** and **backend** services (default: frontend at `http://localhost:3000`, backend at `http://localhost:8000`).
-
-### Using Docker
-
-```bash
-# Build and run backend
-cd backend
-docker build -t exxon-backend .
-docker run -p 8000:8000 exxon-backend
-
-# Build and run frontend
-cd frontend
-docker build -t exxon-frontend .
-docker run -p 3000:3000 exxon-frontend
-```
+This will bring up both the **frontend** and **backend** services (default: frontend at `http://localhost:5173`, backend at `http://localhost:8000`).
 ---
 
 
